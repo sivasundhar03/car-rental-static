@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+   
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #252c00;
+}
+/*  color: #e2fb87; */
+section{
+    padding: 2rem 7%;
+}
+.active{
+    border-bottom: 2px solid #252c00;
+    padding: 8px;
+    font-weight:700;
+}
+.button{
+    padding: 20px 25px;
+    background-color: #e2fb87;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.container .car-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* align-items: center; */
+}
+.container .text{
+    color: #777;
+    font-size: 1.4rem;
+}
+.container .car-main .car-image{
+    flex: 1 1 60rem;
+   
+
+}
+.container .car-main .car-image h2{
+    padding-bottom: 80px;
+    font-size:2.5rem;
+}
+.container .car-main .car-image img{
+    width: 90%;
+    /* padding-bottom: 60px; */
+}
+.container .car-main .car-image .car-spec{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.container .car-main .car-spec .box{
+    width: 200px;
+    height: 100px;
+    
+}
+.container .car-main .car-spec .box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.container .car-main .car-detail{
+    flex: 1 1 20rem;
+}
+.container .car-main .car-detail h5,h6{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #888;
+    padding-bottom: 20px;
+}
+.container .car-main .car-detail p{
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+}
+.container .car-main .car-detail span{
+    font-size: 2rem;
+    font-weight:700;
+}
+.container .car-main .car-detail .chart p{
+    padding-bottom:10px ;
+}
+.container .car-main .car-detail .chart .align{
+    text-align: right;
+}
+.container .car-main .car-detail .chart{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.container .car-main .car-detail .cont{
+    padding: 40px 0;
+}
+.container .car-main .car-detail .cont h3{
+    font-size: 1.7rem;
+    padding-bottom: 30px;
+}
+.container .car-main .car-detail .cont p{
+    color: #666;
+}
+.container .features{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 15px; */
+    border-radius: 15px;
+}
+.container .box{
+    width: 80%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.container .features .feature-box {
+    font-size: 1.6rem;
+    padding:30px 40px;
+}
+.container .features .title{
+    color: #aaa;
+    padding-top: 20px;
+}
+.container .feat{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d3d3d384;
+    padding: 25px 20px;
+    border-radius: 20px;
+}
+.container .feat h3{
+    font-size: 1.7rem;
+    padding: 30px;
+}
+.rules h4{
+    font-size: 1.8rem;
+    padding: 20px 0;
+}
+.rules .box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rules .box .left{
+    /* background-color: #e2fb87; */
+    padding: 20px;
+}
+.rules .box .left div{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    /* background-color: #3C4048; */
+}
+.rules .box .right{
+    /* background-color: #e2fb87; */
+    padding: 10px;
+}
+.rules .box .right div{
+   
+    display: flex;
+    align-items: center;
+   
+}
+
+.rules .box p{
+    font-size: 1.6rem;
+    padding: 20px 20px;
+}
+.car-section h3{
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+}
+.car-section{
+    width: 100%;
+
+}
+.car-section .grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    padding: 10px 10px; 
+}
+.car-section .grid .box {
+    position: relative;
+}
+.car-section .grid .box .img{
+    width: 300px;
+    height: 200px;
+}
+.car-section .grid .box .img img{
+    width: 100%;
+    height: 100%;
+}
+.car-section .grid .box .cnt{
+    padding: 20px 40px;
+    background-color: #e2fb87;
+    border-radius: 15px;
+    position: relative;
+}
+.car-section .grid .box .cnt h1{
+    font-size: 1.9rem;
+}
+.car-section .grid .box .cnt p{
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+.car-section .grid .box .cnt i{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    padding-right: 20px;
+    font-size: 2rem;
+}
+.abs{
+    position: absolute;
+    padding: 10px;
+    top: -30px;
+    right: 0;
+    background-color: #D8D8D8;
+    border-radius: 50%;
+    text-align: center;
+}
+.btn{
+    padding: 15px 20px;
+    color: #3C4048;
+   text-align: center;
+   font-size: 1.6rem;
+   border: 1px solid #aaa;
+   border-radius: 15px;
+   /* margin:600px; */
+}
+.car-section .right{
+    float: right;
+    width: 100vw;
+}
+.car-section .right .btn{
+    float: right;
+}

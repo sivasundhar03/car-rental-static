@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+   
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #252c00;
+}
+/*  color: #e2fb87; */
+.active{
+    border-bottom: 2px solid #252c00;
+    padding: 8px;
+    font-weight:700;
+}
+.container{
+    min-height: 100vh;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.main .content{
+    flex: 1 1 50rem;
+    height: auto;
+    padding: 0 10px;
+}
+.content .pickup{
+   
+    height: 120px;
+    background-color: #252c00;
+    right: 20rem;
+    border-radius: 25px;
+    top: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.content .pickup .cont{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    padding: 30px;
+}
+.content .pickup .cont h3{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.content .pickup .cont p{
+    padding-top: 30px;
+    color: #888;
+    font-size: 1.5rem;
+}
+.content .pickup .btn{
+    
+    /* margin: 10px; */
+    padding: 15px 40px;
+    background: #e2fb87;
+    border-radius: 15px;
+   
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-right: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content .title h3{
+    font-size: 2.3rem;
+    padding: 30px 0;
+}
+.content .icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content .icons .left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.content .icons .right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.content .icons .left p,
+.content .icons .right p
+{
+    font-size: 1.5rem;
+    padding-left: 20px;
+    color: #888;
+}
+.content .sort{
+    padding: 30px 0;
+}
+.content .sort p{
+    font-size: 1.6rem;
+    padding: 30px 0;
+}
+.content .car-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 5rem;
+    
+}
+.content .car-section .car{
+    
+    width: 400px;
+    height: 300px;
+    padding: 10px 30px;
+    position: relative;
+    margin-top:20px;
+}
+.content .car-section .car .image{
+   
+    width: 300px;
+    height: 150px;
+    margin: 0 20px;
+
+    margin-top: 30px;
+}
+.content .car-section .car .image img{
+    width: 100%;
+    height: 100%;
+}
+.content .car-section .car .cont{
+    margin-top: 10px;
+    height: 80px;
+    border-radius: 15px;
+    width: 350px;
+    background-color: #e2fb87;
+    position: relative;
+    padding: 20px 20px
+}
+.content .car-section .car .cont p{
+    padding-top: 10px;
+    font-size: 1.4rem;
+}
+.content .car-section .car .cont h2{
+    font-size: 1.8rem;
+}
+.content .car-section .car .cont i{
+    position: absolute;
+    font-size: 1.8rem;
+    right: 20px;
+    top: 30px;
+}
+.corner{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 55px;
+    height: 55px;
+    padding: 10px 0;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #ccc;
+}
+.corner h4{
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.container .main .content .next{
+    margin: 50px 20px 30px;
+    text-align: center;
+}
+.container .main .content .next a{
+    padding: 10px 15px;
+    font-size: 1.6rem;
+    color: #252c00;
+    border: none;
+    border-radius: 10px;
+    
+}
+.container .main .content .next .active{
+    background-color: #ccc;
+    font-weight: 400;
+}
+/* main content ends */
+
+/* side bar starts */
+.main .side-bar{
+    height: auto;
+    flex: 1 1 20rem;
+    margin-right: 20px;
+}
+.main .side-bar .img{
+    background: url('https://snazzy-maps-cdn.azureedge.net/assets/8097-wy.png?v=20170626083314');
+    width: 100%;
+    height: 120px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.main .side-bar .img p{
+ font-size: 1.6rem; 
+ background-color: #ccc;
+ padding: 5px;
+ color: #252c00;
+ border-radius: 5px;
+}
+.div{
+    font-size: 1.5rem;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  
+}
+.main .side-bar i{
+    font-size: 1rem;
+}
+.main .side-bar .look input{
+    margin: 20px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 13px;
+    border-radius: 10px;
+}
+.main .side-bar .look input::placeholder{
+    font-size: 1.5rem;
+    color: #888;
+}
+.main .side-bar .type{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+    margin: 30px 0;
+}
+.main .side-bar .type .box{
+    width: 100%;
+    height: 100%;
+    border: 1px solid  #888;
+    border-radius:5px;
+    
+}
+.main .side-bar .type .box.active{
+    background-color: #e2fb87;
+    padding: 0;
+}
+.main .side-bar .type .box p{
+    font-size: 1.4rem;
+    padding: 8px ;
+    text-align: center;
+}
+.main .side-bar .range{
+    display: flex;
+    align-items: center;
+    background-color: #e2fb87;
+    margin: 40px 0;
+    position: relative;
+    width: 100%;
+    height: 5px;
+}
+.main .side-bar .range .dot{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 2px;
+    border-radius: 50%;
+    border: 2px solid #252c00;
+    background-color: #e2fb87;
+    
+}
+.main .side-bar .range .dot:nth-child(2){
+    left: 95px;
+}
+.main .side-bar .range p{
+    font-size: 1.6rem;
+    margin-right: 50px;
+    margin-top: -50px;
+    color: #888;
+}
+.main .side-bar a{
+    font-size: 1.5rem;
+    color: #888;
+    padding: 8px 10px;
+    border: 1px solid #888;
+    border-radius: 10px;
+}

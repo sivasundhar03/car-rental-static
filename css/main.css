@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+   
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #252c00;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    padding: 2.5rem 5%;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, .3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #252c00;
+}
+footer{
+    padding: 2rem 7%;
+    background-color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer .foot{
+    display: flex;
+    align-items:start;
+    justify-content: space-between;
+    
+}
+footer .foot .foot-section{
+    
+    width: 100%;
+}
+footer .foot .foot-section h3{
+    font-size: 1.6rem;
+    color: #e2fb87;
+    padding: 10px 20px;
+}
+footer .foot .foot-section a{
+    font-size: 1.4rem;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+}
+footer .copy{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10px;
+}
+footer .copy .social{
+    color: #fff;
+    font-size: 1.8rem;
+   
+}
+footer .copy .social i{
+    padding-left: 15px;
+}
+footer .copy .left{
+    color: #fff;
+    font-size: 1.4rem;
+}
+section{
+    padding: 3rem 8%;
+}
+header nav{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+header .country{
+    margin-left: 30px;
+}
+header .logo{
+    margin-right: 50px;
+}
+header .logo a{
+    font-size: 32px;
+    line-height: 0.3;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    color: #252c00;
+}
+
+nav a{
+    padding: 15px 22px;
+    color: #252c00;
+    font-size: 1.5rem;
+    /* background-color: #252c00; */
+}
+nav a:hover{
+    
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, .3),-5px -5px 25px rgba(0, 0, 0, .3);
+    margin-left: 8px;
+                
+}
+nav .btn{
+    
+    /* margin: 10px; */
+    padding: 10px 20px;
+    background: #e2fb87;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    padding-top: 5rem;
+    position: relative;
+}
+.home .image{
+    flex: 1 1 42rem;
+    height: 550px;
+    position: relative;
+}
+.home .image img{
+    width: 370px;
+    height: 550px;
+    border-radius: 25px;
+    transform: rotate(-8deg);
+    
+}
+.home .image::before{
+    content: "";
+    position: absolute;
+    width: 370px;
+    height: 350px;
+    left: 20px;
+    transform: rotate(4deg);
+    background-color: #e2fb87;
+    border-radius: 25px;
+    z-index: -1;
+}
+.home .content{
+    flex: 1 0 45rem;
+    position: relative;
+
+}
+.home .content h2{
+    margin-top: 20px;
+    display: flex;
+    font-size: 4.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home .content h4{
+    font-size: 2.5rem;
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande',  Arial, sans-serif;
+    padding-top: 25rem;
+    padding-bottom: 20px;
+}
+.home .content p{
+    font-size: 1.7rem;
+    color: #666;
+    padding-bottom: 30px;
+    }
+.home .pickup{
+    position: absolute;
+    width: 60%;
+    height: 120px;
+    background-color: #252c00;
+    right: 20rem;
+    border-radius: 25px;
+    top: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.home .pickup .cont{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    padding: 30px;
+}
+.home .pickup .cont h3{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.home .pickup .cont p{
+    padding-top: 30px;
+    color: #888;
+    font-size: 1.5rem;
+}
+.home .pickup .btn{
+    
+    /* margin: 10px; */
+    padding: 15px 40px;
+    background: #e2fb87;
+    border-radius: 15px;
+   
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-right: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* car section starts */
+.car-section{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #e2fb87; */
+    margin-top: 2rem;
+    gap: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.car-section .details{
+    flex: 1 0 30rem;
+    /* background-color: #e2fb87; */
+   
+}
+.car-section .details h2{
+    font-size: 2.5rem;
+}
+.car-section .details .cont{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+.car-section .details .cont .icons{
+    padding: 15px 10px;
+    background-color: #252c00;
+    border-radius: 15px;
+    color: #fff;
+}
+.car-section .details .cont .icons i {
+    font-size: 2rem;
+}
+.car-section .details .cont .icons i.fa-mobile-button{
+    /* font-size: 2rem; */
+    padding: 0 5px;
+}
+.car-section .details .cont .txt{
+    padding: 10px 40px;
+}
+.car-section .details .cont .txt h4{
+    font-size: 1.8rem;
+}
+.car-section .details .cont .txt p{
+    padding-top: 5px;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+.car-section .details .button{
+    
+    padding: 40px 0;
+}
+.car-section .details .button a{
+    font-size: 1.5rem;
+    color: #252c00;
+    padding: 20px 40px;
+    /* background: #e2fb87; */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 20px;
+}
+.car-section .cars{
+    display: grid;
+    grid-template: repeat(2, 200px) / repeat(2, 300px);
+    justify-items: center;
+    align-content: center;
+    gap: 3rem;
+    position: relative;
+    /* background-color: aqua; */
+}
+.car-section .cars .car{ 
+    width: 250px;
+    height: 200px;
+    /* background-color: #666; */
+    position: relative;
+    
+}
+.car-section .cars .car img{
+    width: 80%; 
+}
+.car-section .cars .car .icons i{
+    font-size: 1rem;
+    padding-top: 4px;
+    letter-spacing: 1;
+}
+.car-section .cars .car .icons{
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #e2fb87;
+    border-radius: 15px;
+}
+.car-section .cars .car .icons h3{
+    font-size: 1.7rem;
+    text-align: left;
+}
+.car-section .cars .car .corner{
+   width: 45px;
+   height: 45px;
+   padding: 10px 0;
+   background-color: #ccc;
+   text-align: center;
+   vertical-align: middle;
+   position: absolute;
+   border-radius: 50%;
+   top: 0;
+   right: 10px;
+}
+.car-section .cars .car .corner h1{
+
+    /* text-align: center; */
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.car-section .cars .car .corner p{
+    font-size: .9rem;
+    text-align: center;
+}
+/* car section end */
+
+/* information section starts */
+.information{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 70vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* position: relative; */
+    
+}
+.information .info{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e2fb87;
+    color: #252c00;
+    padding: 4rem 7%;
+    border-radius: 15px;       
+}
+.information .info .scam{
+    width: 70%;
+
+}
+.information .info .scam h2{
+    font-size: 3rem;
+    padding: 10px;
+    
+}
+.information .info .scam p{
+    font-size: 1.5rem;
+    padding: 10px;
+    color: #666;
+    letter-spacing: .5px;
+    line-height: 1.5;
+}
+.information .info .info-btn{
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 15px 25px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+/* information section ends */
+
+/* footer section starts */
+.f-box{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-wrap: wrap;
+    
+}
+.f-box h1{
+    font-size: 3rem;
+    padding: 25px;
+}
+.f-box .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+.f-box .box-container .box {
+    flex: 1 1 40rem;
+    padding: 10px 20px; 
+    /* background-color: #888; */
+    margin: 10px;
+    height: 200px;
+   
+
+}
+.f-box .box-container .box h3{
+    font-size: 1.8rem;
+    /* padding: 20px; */
+}
+.f-box .box-container .box .btn{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 20px 45px;
+    background-color: #252c00;
+    color: #e2fb87;
+    border-radius: 15px;
+   
+}
+.f-box .box-container .box p{
+    padding-top: 30px;
+    font-size: 1.5rem;
+    color: #666;
+    letter-spacing: .5px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+/* footer section ends */
+
+/* ride section starts */
+.ride{
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    flex-wrap: wrap;
+   
+}
+.ride .find{
+    flex: 1 1 45rem;
+    height: 450px;
+
+}
+.ride .find h3{
+    font-size: 2.9rem;
+    font-weight: 600;
+    padding: 15px 20px;
+    letter-spacing: .3px;
+}
+.ride .find p{
+    font-size: 1.7rem;
+    letter-spacing: .4px;
+   color: #666;
+    padding: 20px 10px 70px;
+}
+.ride .box-container{
+    justify-content: center;
+    flex: 1 1 45rem;
+    background-color: #fff;
+}
+.ride .box-container .box .place p{
+    font-size: 1.7rem;
+    padding: 5px 40px;
+}
+.ride .box-container .box .amt p{
+    padding: 5px 40px;
+    font-size: 1.2rem;
+    color: #666;
+}
+.ride .box-container .box .amt h3{
+    font-size: 1.3rem;
+    padding: 5px 40px;
+    color: chartreuse;
+}
+.ride .box-container .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 20px 0px 20px 90px;
+    width: 450px; 
+    height: 90px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px #ccc,
+                -5px -5px 20px #f2f2f2;
+ 
+}
+.ride .find a{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #252c00;
+    padding: 10px 20px;
+    background-color: #e2fb87;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+
+/* ride section ends */
+
+/* blog section starts  */
+.blog-section{
+    background-color: #222;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    
+}
+.blog-section h1{
+    font-size: 2.8rem;
+    color: #fff;
+    padding: 60px 20px 0;
+
+}
+.blog-section a{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #252c00;
+    background-color: #e2fb87;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.blog-section .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 20px;
+    flex-wrap: wrap;
+}
+.blog-section .box .img-box{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid #fff; */
+    border-radius: 15px;
+}
+.blog-section .box .img-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.blog-section .box .img-box:nth-child(2){
+    background: url("images.jpg") no-repeat;
+    background-size: 300px 300px;
+}
+.blog-section .box .img-box h2{
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 20px 25px;
+    letter-spacing: .5px;
+}
+.blog-section .box .img-box p{
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 20px 25px;
+    letter-spacing: .5px;
+    padding-top: 85px;
+}
+.line{
+    position: absolute;
+    width: 80%;
+    height: 1px;
+    border: 1px solid #ccc;
+    bottom: 40px;
+    left: 120px;   
+}
+/* blog section ends */
